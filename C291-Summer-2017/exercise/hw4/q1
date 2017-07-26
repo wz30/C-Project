@@ -1,0 +1,29 @@
+/*
+name: q1
+author: Wei Zhang
+date: 5/25/2017
+Explain: the answer for question 1
+*/
+
+a)const int SIZE = 5;
+  unsigned int values[SIZE] = {2,4,6,8,10};
+b)unsigned int *vPtr =&values; 
+c)for(i = 0; i<SIZE ; i++){
+    printf("%d",values[i]);
+  }   
+d)vPtr = values;
+  vPtr = &values[0];
+e)for(i = 0; i<SIZE ; i++){
+    printf("%d", *(cPtr+i));
+  }
+f)for(i = 0; i< SIZE ; i++){
+    printf("%d", *(values+i));
+  }
+g)for(i=0; i<SIZE; i++){
+    printf("%d", cPtr[i]);
+  }
+h)values[5]; *(values+5);
+  cPtr[5]; *(cPtr+5) ;
+i)1002500+2*3=1002506 ; 8
+j)1002500+2*2=1002504 ; 6
+ 

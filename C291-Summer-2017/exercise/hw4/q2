@@ -1,0 +1,20 @@
+/*
+name: q2
+author: Wei Zhang
+date: 5/25/2017
+Explain: the answer for question 2
+*/
+
+a)long *lPtr;  
+
+b)lPtr = &value1;
+
+c)printf("%d",*lPtr);
+  
+d)value2 = *lPtr;
+  
+e)printf("%d", value2);
+  
+f)printf("%p", &value1);
+  
+g)printf("%p", lPtr); They are same.
